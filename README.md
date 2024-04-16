@@ -1,16 +1,22 @@
 # package-laravel-filament-boilerplate
 
-1) Filament's Prerequisites: 
+# Filament's Prerequisites: 
   
-  --PHP 8.1+
-  --Laravel v10.0+
-  --Livewire v3.0+
+  1) PHP 8.1+
+  2) Laravel v10.0+
+  3) Livewire v3.0+
 
-2) Project Setup
+# Project Setup
 
---git clone
---composer install
--- env setup
+1) git clone
+2) composer install
+3) npm install
+4) env setup
+5) php artisan migrate
+6) php artisan make:filament-user   => one user created in database througt this you can login 
+7) php artisan key:generate
+8) php artisan serve  and npm run dev
+9) http://127.0.0.1:8000/admin
 -- php artisan migrate
 
 
