@@ -1,3 +1,20 @@
+# package-laravel-filament-boilerplate
+
+1) Filament's Prerequisites: 
+  
+  --PHP 8.1+
+  --Laravel v10.0+
+  --Livewire v3.0+
+
+2) Project Setup
+
+--git clone
+--composer install
+-- env setup
+-- php artisan migrate
+
+
+
 
 ![Screenshot1](https://github.com/kumarchandan1997/E-Commerce-Project-with-Laravel-10-Filament-3/assets/89054724/bd5cdaa2-5bb0-483c-99ec-4372dba8fdf2)
 ![Screenshot2](https://github.com/kumarchandan1997/E-Commerce-Project-with-Laravel-10-Filament-3/assets/89054724/8cdea05a-459a-4355-994e-36dae565ef62)
