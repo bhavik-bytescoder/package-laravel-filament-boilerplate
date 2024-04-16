@@ -2,7 +2,7 @@
 
 # Filament's Prerequisites: 
   
-  1) PHP 8.1+
+  1) PHP 8.1+  and for filament v3+ must have (ext-intl) in your php.ini
   2) Laravel v10.0+
   3) Livewire v3.0+
 
@@ -17,8 +17,13 @@
 7) php artisan key:generate
 8) php artisan serve  and npm run dev
 9) http://127.0.0.1:8000/admin
--- php artisan migrate
 
+
+# Custom Crud
+
+1) php artisan make:filament-resource Your_model_name --generate  (for example => php artisan make:filament-resource Customer --generate)
+
+ Note-> By this command we are able to make complete crud 
 
 
 
