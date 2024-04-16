@@ -9,14 +9,15 @@
 # Project Setup
 
 1) git clone
-2) composer install
-3) npm install
-4) env setup
-5) php artisan migrate
-6) php artisan make:filament-user   => one user created in database througt this you can login 
-7) php artisan key:generate
-8) php artisan serve  and npm run dev
-9) http://127.0.0.1:8000/admin
+2) cd project_name
+3) composer install
+4) npm install
+5) env setup
+6) php artisan migrate
+7) php artisan make:filament-user   => one user created in database througt this you can login 
+8) php artisan key:generate
+9) php artisan serve  and npm run dev
+10) http://127.0.0.1:8000/admin
 
 
 # Custom Crud
